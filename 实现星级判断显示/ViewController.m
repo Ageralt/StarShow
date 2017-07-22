@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FuStarView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    FuStarView * starView = [[FuStarView alloc]initWithFrame:CGRectMake(100, 200, 100, 20)];
+    [self.view addSubview:starView];
+    starView.showStar = 4.6f * 20;
+    
 }
 
 

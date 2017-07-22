@@ -15,6 +15,7 @@
 		787CAC9B1F1C86D40067A582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787CAC991F1C86D40067A582 /* LaunchScreen.storyboard */; };
 		787CACA61F1C86D40067A582 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787CACA51F1C86D40067A582 /* ________Tests.m */; };
 		787CACB11F1C86D40067A582 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787CACB01F1C86D40067A582 /* ________UITests.m */; };
+		787CACC01F1C877B0067A582 /* FuStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 787CACBF1F1C877B0067A582 /* FuStarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		787CACAC1F1C86D40067A582 /* 实现星级判断显示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实现星级判断显示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		787CACB01F1C86D40067A582 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		787CACB21F1C86D40067A582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787CACBE1F1C877B0067A582 /* FuStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuStarView.h; sourceTree = "<group>"; };
+		787CACBF1F1C877B0067A582 /* FuStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuStarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				787CAC8E1F1C86D30067A582 /* AppDelegate.h */,
 				787CAC8F1F1C86D30067A582 /* AppDelegate.m */,
+				787CACBE1F1C877B0067A582 /* FuStarView.h */,
+				787CACBF1F1C877B0067A582 /* FuStarView.m */,
 				787CAC911F1C86D30067A582 /* ViewController.h */,
 				787CAC921F1C86D30067A582 /* ViewController.m */,
 				787CAC941F1C86D40067A582 /* Main.storyboard */,
@@ -279,6 +284,7 @@
 				787CAC931F1C86D30067A582 /* ViewController.m in Sources */,
 				787CAC901F1C86D30067A582 /* AppDelegate.m in Sources */,
 				787CAC8D1F1C86D30067A582 /* main.m in Sources */,
+				787CACC01F1C877B0067A582 /* FuStarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
